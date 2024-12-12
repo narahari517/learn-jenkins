@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh "This is test"
+                    sh "This is TEST"
                 }
             }
         }
